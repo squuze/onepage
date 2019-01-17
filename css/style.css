@@ -5,7 +5,8 @@ body{
 }
 
 .wrapper{
-  max-width: 1170px;
+  max-width: 1180px;
+  padding: 0 40px;
   margin: 0 auto;
 }
 
@@ -105,6 +106,14 @@ header{
   color: #0d0d0d;
 }
 
+h6{
+  color: #0d0d0d;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
 .banner{
   padding-top: 280px;
   text-align: center;
@@ -133,8 +142,6 @@ header{
   top: 50%;
   margin-left: 15px;
   margin-top: -20px;
-
-
 }
 
 .heading h2{
@@ -154,4 +161,47 @@ header{
   font-weight: 400;
   line-height: 25px;
   text-transform: uppercase;
+}
+
+.about-wrap{
+  display: flex;
+  align-items: flex-start;
+  border-bottom: 2px solid #51007a;
+  padding-bottom: 110px;
+}
+
+.about-wrap-content{
+  display: flex;
+  align-items: flex-start;
+  margin-right: 45px;
+  flex: 1;
+}
+
+.about-wrap-content-icon{
+  width: 110px;
+  height: 110px;
+  border: 2px solid #51007a;
+  background-color: #FFF;
+  border-radius: 50%;
+  flex: none;
+  margin-right: 20px;
+}
+
+.about-wrap-content-text h6{
+  margin-bottom: 15px;
+}
+
+.about-wrap-content-text p{
+  color: #737373;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.about-wrap-content-text .red-text{
+  line-height: 20px;
+  color: #e74c3c;
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 15px;
 }
