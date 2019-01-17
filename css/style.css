@@ -1,0 +1,41 @@
+body{
+  color: #4d4d4d;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 16px;
+}
+
+.wrapper{
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+header{
+  position: absolute;
+  top: 84px;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+.banner{
+  height: 853px;
+  background: url("../img/bg.jpg") no-repeat center top;
+}
+
+.logo a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 150px;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 45px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+
+}
