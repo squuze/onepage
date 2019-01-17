@@ -11,7 +11,7 @@ body{
 
 header{
   position: absolute;
-  top: 84px;
+  top: 50px;
   left: 0;
   right: 0;
   z-index: 99;
@@ -37,5 +37,32 @@ header{
   text-transform: uppercase;
   text-decoration: none;
   color: #fff;
+}
 
+.header-wrap{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu{
+  list-style: none;
+  display: flex;
+}
+
+.menu_item{
+  margin-left: 65px;
+}
+
+.menu_link{
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.menu_link:hover{
+  color: #0d0d0d;
 }
